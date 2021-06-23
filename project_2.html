@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project 2</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/project.css">
+    <style type="text/css">@import url("CSS/main.css");</style>
+  </head>
+  <body>
+    <div id="hamburger_menu" title="Easy site navigation.">
+      <img height="30px" id="dropbtn" src="Images/hamburger_selector.png" />
+      <div class="drop_content">
+        <a href="#mission_statement" id="drop_link_statement" class="drop_link">Our Mission Statement</a>
+        <a href="#Project_1" id="drop_link_proj1" class="drop_link">Proj1</a>
+        <a href="Project_2" id="drop_link_proj2" class="drop_link">Proj2</a>
+        <a href="https://www.facebook.com/therivermissions" id="drop_link_facebook" class="drop_link">Visit our Facebook Page</a>
+        <a href="contact.html" id="drop_link_contact" class="drop_link">Contact Us</a>
+        <nav id="drop_link_donate" class="drop_link">
+          <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="godforhonduras@gmail.com" />
+            <input type="hidden" name="item_name" value="Serving the people of Honduras." />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="Paypal Icon" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+          </form>
+        </nav>
+        <a href="" id="drop_link_recur" class="drop_link">Set up a Monthly Donation</a>
+      </div>
+    </div>
+
+    <div class="flag_nav" >
+      <!--Make the hamburger menu appear on mobile but not desktop.-->
+
+      <span class="flag_nav_item">¡Tenemos un sitio en español!</span>
+      <a id="button_spanish_link" class="flag_nav_item" title="Haga clic aquí para el sitio en español." href="espanol_index.html"><img src="Images/spanish_flag_icon.png" alt="Honduran Flag" /></a>
+    </div>
+
+    <div id="header_bar">
+      <h1 id="header_name">The River Mission International</h1>
+      <h2 id="header_motto">Serving the people of Honduras</h2>
+    </div>
+
+    <div id="top_nav_bar" class="nav_bar">
+      <nav  class="top_nav_button" title="Go back to our main site." id="return_button"><a href="index.html">Main Page</a></nav>
+    </div>
+
+    <div id="widget_bar" class="nav_bar">
+      <span class="external_widgets" id="go_up">
+        <a href="#header_bar" title="Go to the top of the page.">Go Back to Top</a>
+      </span>
+      <span class="external_widgets" id="paypal_widget">
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+          <input type="hidden" name="business" value="godforhonduras@gmail.com" />
+          <input type="hidden" name="item_name" value="Serving the people of Honduras." />
+          <input type="hidden" name="currency_code" value="USD" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="Paypal Icon" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+      </span>
+      <span class="external_widgets" id="facebook_widget">
+        <a href="https://www.facebook.com/therivermissions" title="Go to our Facebook Page">
+          <img alt="Facebook Icon" src="Images/fb_icon.png" height="30px" width="30px"/>
+        </a>
+      </span>
+
+    </div>
+
+  </body>
+</html>
